@@ -1,0 +1,7 @@
+{
+    "prettier.trailingComma": "all",
+    "prettier.vueIndentScriptAndStyle": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "prettier.jsxBracketSameLine": true
+}
