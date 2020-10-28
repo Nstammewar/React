@@ -6,7 +6,7 @@ const HeroSection = () => {
     const [hover, setHover] = useState(false);
     const onHover=()=>{
         setHover(!hover)
-    }
+    };
     return (
         <HeroContainer>
             <HeroBG>
@@ -19,7 +19,9 @@ const HeroSection = () => {
                     practice purpose
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup"  onMouseEnter={hover} onMouseLeave={onHover}>
+                    <Button to='signup'  onMouseEnter={onHover} onMouseLeave={onHover}
+                       
+                    >
                         Lets Go {hover?<ArrowForword/>:<ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>
